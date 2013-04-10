@@ -1,0 +1,32 @@
+.conteudo{
+		height:7000px !important;
+	}
+
+h1{
+		color:orange;
+		margin-left:220px;
+		margin-top:10px;
+		margin-bottom:20px;
+		font-size:20px;
+	}
+	
+h2 {
+		color:orange;
+		font-size:18px;
+		margin-left:300px;
+	}
+	
+h3 {
+		color:black;
+		font-weight: bold;
+		cursor: pointer;
+		font-size:16px;
+	}
+	
+	
+.principal p {
+		text-align:justify;
+		font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+		color: black;
+		font-size:13px;
+	}

@@ -1,0 +1,286 @@
+#tabs{
+	height:500px;
+	position:relative;
+	margin-left:25%;
+	width:600px;
+}
+#tabs-1{	
+	width:90%;
+	min-height:50%;
+	}
+#tabs-2{	
+	width:100%;
+	height:82%;
+}
+#tabs-3{
+
+	width:100%;
+	height:82%;
+}
+/*Aba Superior metade esquerda da tela*/
+.conteudoDados{
+	margin-left:-20px;
+	height: 80%;
+	width: 40%;
+	float: left;
+	position: relative;
+}
+.conteudoDadosSuperior {
+	height: 50%;
+	width: 216px;
+	position: relative;
+	border-right: 1px #e2e2e2 solid;
+	border-bottom: 1px #e2e2e2 dashed;
+	border-top: 1px #e2e2e2 solid;
+	border-left: 1px #e2e2e2 solid;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align: center;
+}
+
+.conteudoDadosSuperior label{
+	margin-left:-30px;
+}
+
+.conteudoDadosSuperior select{
+	margin-left:-10px;
+}
+
+#inserirNovoCurso{
+	margin-top:20px;
+}
+
+.conteudoDadosInferior {
+	margin-top:0.5px;
+	height: 60px;
+	width: 216px;
+	position: relative;
+	border-right: 1px #e2e2e2 solid;
+	border-bottom: 1px #e2e2e2 solid;
+	border-top: 0px #e2e2e2 dashed;
+	border-left: 1px #e2e2e2 solid;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	
+}
+
+.conteudoDadosInferior label{
+	margin-left:10px;
+}
+
+.conteudoDadosInferior input{
+	margin-left:10px;
+}
+
+#NovaDisciplina{
+	width: 100%;
+}
+
+/*Aba Superior metade direita da tela*/
+.conteudoInterativa{
+	width: 40%;
+	float: left;
+	height: 80%;
+	position: relative;
+}
+.conteudoInterativaSuperior{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border-left: 0px #1e71ae solid;
+	border-bottom: 0px #1e71ae solid;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+
+
+/*Aba Superior div botao*/
+.conteudoBotao{
+	width: 80%;
+	height: 10%;
+	clear: both;
+	position: relative;
+}
+
+#confirmarGeral{
+	float: right;
+	text-decoration: none;
+	color: white;
+	font:bold 12px Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	color:#e2e2e2;
+	background:#1e71ae;
+	border:0px outset #4a3a00;
+	text-shadow:0px -1px 8px #0d0d0d;
+	box-shadow:-2px 0px 12px #2e2300;
+	-moz-box-shadow:-2px 0px 12px #2e2300;
+	-webkit-box-shadow:-2px 0px 12px #2e2300;
+	border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+	-webkit-border-radius:15px 15px 15px 15px;
+	width:34px;
+	padding: 0px 70px 0px 0px;
+	cursor:pointer;
+	margin-top:42px;
+	margin-right: -40px;	
+}
+
+#confirmarGeral:active
+{
+	cursor:pointer;
+	position:relative;
+	top:2px;
+}
+
+#confirmarSuperior{
+		float: right;
+	text-decoration: none;
+	color: white;
+	font:bold 12px Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	color:#e2e2e2;
+	background:#1e71ae;
+	border:0px outset #4a3a00;
+	text-shadow:0px -1px 8px #0d0d0d;
+	box-shadow:-2px 0px 12px #2e2300;
+	-moz-box-shadow:-2px 0px 12px #2e2300;
+	-webkit-box-shadow:-2px 0px 12px #2e2300;
+	border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+	-webkit-border-radius:15px 15px 15px 15px;
+	width:34px;
+	padding: 0px 70px 0px 0px;
+	cursor:pointer;
+	margin-top: 334px;
+	margin-right: -420px;
+}
+
+#confirmarSuperior:active{
+	cursor:pointer;
+	position:relative;
+	top:2px;
+}
+
+/* Aba Outros Cursos */
+
+#tabs-3 label{
+	margin-top:30px;
+}
+
+.medio{
+	position: relative;
+	width: 110px;
+	height:40px;
+	float: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	}
+	
+.fundamental{
+	position: relative;
+	width: 110px;
+	height:40px;
+	float: right;
+	font: 12px Arial, Helvetica, sans-serif;
+	}
+#btn{
+	top:87px;
+	left:250px;
+	position:absolute;
+	}
+#btn1{
+	top:93px;
+	left:250px;
+	position:absolute;
+	}
+	
+a.bt_red {
+	float: right;
+	text-decoration: none;
+	color: white;
+	font:bold 12px Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	color:#e2e2e2;
+	background:#1e71ae;
+	border:0px outset #4a3a00;
+	text-shadow:0px -1px 8px #0d0d0d;
+	box-shadow:-2px 0px 12px #2e2300;
+	-moz-box-shadow:-2px 0px 12px #2e2300;
+	-webkit-box-shadow:-2px 0px 12px #2e2300;
+	border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+	-webkit-border-radius:15px 15px 15px 15px;
+	width:34px;
+	text-align:center;
+	padding: 0px 70px 0px 0px;
+	cursor:pointer;
+	margin:0 auto;
+	margin-top:370px;
+	margin-left:50px;
+}
+
+a.bt_red:active
+{
+	cursor:pointer;
+	position:relative;
+	top:2px;
+}
+
+#incluir{
+
+}
+
+#incluir1{
+top:437px;
+left:516px;
+position:absolute;
+}
+
+#incluir2{
+top:437px;
+left:516px;
+position:absolute;
+}
+	
+/*select*/	
+ #feedback { font-size: 1.4em; }
+ #selectable .ui-selectee,
+ #selecionavel .ui-selectee { background: -moz-linear-gradient(top, rgba(255,168,76,0.6) 32%, rgba(255,123,13,0.4) 68%, rgba(255,123,13,0.33) 80%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(32%,rgba(255,168,76,0.6)), color-stop(68%,rgba(255,123,13,0.4)), color-stop(80%,rgba(255,123,13,0.33))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,168,76,0.6) 32%,rgba(255,123,13,0.4) 68%,rgba(255,123,13,0.33) 80%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,168,76,0.6) 32%,rgba(255,123,13,0.4) 68%,rgba(255,123,13,0.33) 80%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,168,76,0.6) 32%,rgba(255,123,13,0.4) 68%,rgba(255,123,13,0.33) 80%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,168,76,0.6) 32%,rgba(255,123,13,0.4) 68%,rgba(255,123,13,0.33) 80%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffa84c', endColorstr='#54ff7b0d',GradientType=0 ); /* IE6-9 */
+ 
+}
+
+ #selectable .ui-selectee:not(.ui-selected):hover,
+ #selecionavel .ui-selectee:not(.ui-selected):hover { background: rgb(252,234,187); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,234,187,1)), color-stop(50%,rgba(252,205,77,1)), color-stop(51%,rgba(248,181,0,1)), color-stop(100%,rgba(251,223,147,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+}
+
+
+ #selectable .ui-selected,
+ #selecionavel .ui-selected  { background: -moz-linear-gradient(top,  rgba(254,204,177,1) 0%, rgba(241,116,50,0.98) 44%, rgba(241,116,50,0.97) 59%, rgba(251,149,94,0.95) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,204,177,1)), color-stop(44%,rgba(241,116,50,0.98)), color-stop(59%,rgba(241,116,50,0.97)), color-stop(100%,rgba(251,149,94,0.95))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(254,204,177,1) 0%,rgba(241,116,50,0.98) 44%,rgba(241,116,50,0.97) 59%,rgba(251,149,94,0.95) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(254,204,177,1) 0%,rgba(241,116,50,0.98) 44%,rgba(241,116,50,0.97) 59%,rgba(251,149,94,0.95) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(254,204,177,1) 0%,rgba(241,116,50,0.98) 44%,rgba(241,116,50,0.97) 59%,rgba(251,149,94,0.95) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(254,204,177,1) 0%,rgba(241,116,50,0.98) 44%,rgba(241,116,50,0.97) 59%,rgba(251,149,94,0.95) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#f2fb955e',GradientType=0 ); /* IE6-9 */
+color: white; }
+
+ #selectable,
+ #selecionavel { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+ 
+ #selectable li,
+ #selecionavel li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+	
+	
